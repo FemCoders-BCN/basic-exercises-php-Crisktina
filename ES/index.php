@@ -80,7 +80,7 @@
     //BÁSICOS
     //Ejercicio 1 -> Crear una variable por cada tipo de dato (excepto objeto).
 
-    $string = 'Hola';
+    $string = '"Hola"';
     //Continúa escribiendo tu código aquí...
     $integer = 5;
     $float = 1.2;
@@ -104,7 +104,7 @@
     echo "<hr/>";
     print($float);
     echo "<hr/>";
-    print_r(strval($boolean));
+    print_r(is_bool($boolean));
     echo "<hr/>";
     print_r($arrayOk);
     echo "<hr/>";
@@ -138,7 +138,7 @@
 
     //Escribe tu código aquí...
     echo "Ejercicio 4:"."<br/>";
-
+    echo strtoupper($hola."<hr/>");
     //Ejercicio 5 -> Imprime en pantalla la longitud de la variable tipo string.
 
     //Escribe tu código aquí...
@@ -191,46 +191,57 @@
     //Ejercicio 11 -> declara dos variables y dale un valor de tipo integer e imprime ambas en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 11:"."<br/>";
 
     //Ejercicio 12 -> suma ambas variables de tipo integer e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 12:"."<br/>";
 
     //Ejercicio 13 -> resta ambas variables de tipo integer e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 13:"."<br/>";
 
     //Ejercicio 14 -> multiplica ambas variables de tipo integer e imprime en pantalla.
+    echo "Ejercicio 14:"."<br/>";
 
     //Escribe tu código aquí...
 
     //Ejercicio 15 -> divide ambas variables de tipo integer e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 15:"."<br/>";
 
     //Ejercicio 16 -> calcula el módulo de ambas variables de tipo integer e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 16:"."<br/>";
 
     //Ejercicio 17 -> declara dos variables y dale un valor de tipo double e imprime ambas en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 17:"."<br/>";
 
     //Ejercicio 18 -> repite los pasos del 2 al 6 pero para las variables de tipo double e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 18:"."<br/>";
 
     //Ejercicio 19 -> declara una variable de tipo integer con un valor negativo y cambia con una función propia de php al valor positivo e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 19:"."<br/>";
 
     //Ejercicio 20 -> Declara una variable de tipo double y redondea su valor, imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 20:"."<br/>";
 
     //Ejercicio 21 -> obtén un número aleatorio del 1 al 100 e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 21:"."<br/>";
     ?>
 
     <h3>De tipo Array</h3>
@@ -248,20 +259,25 @@
     //Ejercicio 22 -> declara un array con datos de tipo string e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 22:"."<br/>";
 
     //Ejercicio 23 -> obtén el largo del array e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 23:"."<br/>";
 
     //Ejercicio 24 -> agrega un valor tipo string al array que creaste anteriormente e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 24:"."<br/>";
 
     //Ejercicio 25 -> ahora agrega 2 elementos más a tu array e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 25:"."<br/>";
 
     //Ejercicio 26 -> crea un nuevo array y concaténalo con el anterior e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 26:"."<br/>";
     ?>
