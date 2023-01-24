@@ -82,7 +82,7 @@
 
     $string = 'Hola';
     //Continúa escribiendo tu código aquí...
-    $integer = 1;
+    $integer = 5;
     $float = 1.2;
     $boolean = true;
     $arrayOk = array("key1" => "value1","key2" => "value2" );
@@ -99,11 +99,16 @@
 
     //Escribe tu código aquí...
     print_r($string);
+    echo "<hr/>";
     print_r($integer);
-    print_r($float);
-    print_r($boolean);
+    echo "<hr/>";
+    print($float);
+    echo "<hr/>";
+    print_r(strval($boolean));
+    echo "<hr/>";
     print_r($arrayOk);
-    print_r($null);
+    echo "<hr/>";
+    print_r(gettype($null));
 
     ?>
 
@@ -125,34 +130,44 @@
     //Ejercicio 3 -> Crea una variable de tipo string cuyo valor sea 'Hola Mundo' e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 3:"."<br/>";
+    $hola = "Hola Mundo";
+    echo $hola."<hr/>";
 
     //Ejercicio 4 -> Convierte todos los caracteres del string a mayúsculas e imprimir en pantalla, sin modificar la variable original.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 4:"."<br/>";
 
     //Ejercicio 5 -> Imprime en pantalla la longitud de la variable tipo string.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 5:"."<br/>";
 
     //Ejercicio 6 -> Imprime en pantalla la cantidad de palabras de la variable tipo string.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 6:"."<br/>";
 
     //Ejercicio 7 -> Cambia a orden inverso los caracteres de la variable string e imprime en pantalla, sin modificar la variable original.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 7:"."<br/>";
 
     //Ejercicio 8 -> Reemplaza la palabra 'Hola' de tu variable original a 'Holi' e imprime en pantalla.
 
     //Escribe tu código aquí...
+    echo "Ejercicio 8:"."<br/>";
 
     //Ejercicio 9 -> Crea una nueva variable con el valor de 'Comenzamos con PHP' e imprime la concatenación de tu variable inicial y ésta segunda. 
 
     //Escribe tu código aquí...
+    echo "Ejercicio 9:"."<br/>";
 
     //Ejercicio 10 -> Crea una constante con tu nombre e imprime en pantalla.
     
     //Escribe tu código aquí...
+    echo "Ejercicio 10:"."<br/>";
     ?>
 
     <h3>De tipo Integer y Double</h3>
