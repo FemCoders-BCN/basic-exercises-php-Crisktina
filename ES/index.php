@@ -301,11 +301,14 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 22:"."<br/>";
+    $pelis =  array("Spiderman", "La vida es bella", "Avatar");
+    var_dump($pelis);
 
     //Ejercicio 23 -> obtén el largo del array e imprime en pantalla.
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 23:"."<br/>";
+    echo count($pelis);
 
     //Ejercicio 24 -> agrega un valor tipo string al array que creaste anteriormente e imprime en pantalla.
 
