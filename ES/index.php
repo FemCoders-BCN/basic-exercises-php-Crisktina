@@ -314,14 +314,21 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 24:"."<br/>";
+    array_push($pelis, "Srek");
+    var_dump($pelis);
 
     //Ejercicio 25 -> ahora agrega 2 elementos más a tu array e imprime en pantalla.
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 25:"."<br/>";
+    array_push($pelis, "Los increibles", "Persepolis");
+    var_dump($pelis);
 
     //Ejercicio 26 -> crea un nuevo array y concaténalo con el anterior e imprime en pantalla.
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 26:"."<br/>";
+    $postres = ["fruta", "flan", "coulant", "tarta de queso"];
+    $arraymerge = array_merge($pelis, $postres);
+    var_dump($arraymerge);
     ?>
