@@ -281,6 +281,8 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 21:"."<br/>";
+    echo rand(0, 100);
+
     ?>
 
     <h3>De tipo Array</h3>
