@@ -202,9 +202,9 @@
 
     //Escribe tu código aquí...
     echo "Ejercicio 11:"."<br/>";
-    echo $integer1 = 12;
+    echo $integer1 = 14;
     echo "<br/>";
-    echo $integer2 = 13;
+    echo $integer2 = 12;
 
     //Ejercicio 12 -> suma ambas variables de tipo integer e imprime en pantalla.
 
@@ -217,9 +217,13 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 13:"."<br/>";
+    $resta = $integer1 - $integer2;
+    echo $resta;
 
     //Ejercicio 14 -> multiplica ambas variables de tipo integer e imprime en pantalla.
     echo "<hr/>"."Ejercicio 14:"."<br/>";
+    $multi = $integer1 * $integer2;
+    echo $multi;
 
     //Escribe tu código aquí...
 
