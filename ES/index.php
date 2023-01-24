@@ -169,11 +169,15 @@
 
     //Escribe tu código aquí...
     echo "Ejercicio 9:"."<br/>";
+    $nuevo_string = "comenzamos con PHP";
+    echo $hola.$nuevo_string;
 
     //Ejercicio 10 -> Crea una constante con tu nombre e imprime en pantalla.
     
     //Escribe tu código aquí...
-    echo "Ejercicio 10:"."<br/>";
+    echo "<hr/>"."Ejercicio 10:"."<br/>";
+    define("nombre", "Cristina Hidalgo");
+    echo nombre;
     ?>
 
     <h3>De tipo Integer y Double</h3>
