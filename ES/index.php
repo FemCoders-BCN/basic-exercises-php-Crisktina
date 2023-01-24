@@ -150,16 +150,18 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 6:"."<br/>";
+    echo str_word_count($hola, 0);
 
     //Ejercicio 7 -> Cambia a orden inverso los caracteres de la variable string e imprime en pantalla, sin modificar la variable original.
 
     //Escribe tu código aquí...
-    echo "Ejercicio 7:"."<br/>";
+    echo "<hr/>"."Ejercicio 7:"."<br/>";
+    echo strrev($hola);
 
     //Ejercicio 8 -> Reemplaza la palabra 'Hola' de tu variable original a 'Holi' e imprime en pantalla.
 
     //Escribe tu código aquí...
-    echo "Ejercicio 8:"."<br/>";
+    echo "<hr/>"."Ejercicio 8:"."<br/>";
 
     //Ejercicio 9 -> Crea una nueva variable con el valor de 'Comenzamos con PHP' e imprime la concatenación de tu variable inicial y ésta segunda. 
 
