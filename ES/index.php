@@ -162,8 +162,9 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 8:"."<br/>";
-    $hola = "holi";
-    echo $hola."<hr/>";
+    // $hola = "holi";
+    $holi = str_replace("Hola", "Holi", $hola);
+    echo $holi."<hr/>";
 
     //Ejercicio 9 -> Crea una nueva variable con el valor de 'Comenzamos con PHP' e imprime la concatenación de tu variable inicial y ésta segunda. 
 
