@@ -245,11 +245,23 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 17:"."<br/>";
+    echo $double1 = 1.4;
+    echo "<br/>";
+    echo $double2 = 1.2;
 
     //Ejercicio 18 -> repite los pasos del 2 al 6 pero para las variables de tipo double e imprime en pantalla.
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 18:"."<br/>";
+    echo $double1 + $double2;
+    echo "<br/>";
+    echo $double1 - $double2;
+    echo "<br/>";
+    echo $double1 * $double2;
+    echo "<br/>";
+    echo $double1 / $double2;
+    echo "<br/>"."falta %";
+    // echo $double1 % $double2;
 
     //Ejercicio 19 -> declara una variable de tipo integer con un valor negativo y cambia con una función propia de php al valor positivo e imprime en pantalla.
 
