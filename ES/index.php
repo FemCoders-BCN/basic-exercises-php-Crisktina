@@ -267,11 +267,15 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 19:"."<br/>";
+    $intneg = -12;
+    echo abs($intneg);
 
     //Ejercicio 20 -> Declara una variable de tipo double y redondea su valor, imprime en pantalla.
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 20:"."<br/>";
+    $double = 1.2;
+    echo round($double);
 
     //Ejercicio 21 -> obtén un número aleatorio del 1 al 100 e imprime en pantalla.
 
