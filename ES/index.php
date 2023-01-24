@@ -82,10 +82,28 @@
 
     $string = 'Hola';
     //Continúa escribiendo tu código aquí...
+    $integer = 1;
+    $float = 1.2;
+    $boolean = true;
+    $arrayOk = array("key1" => "value1","key2" => "value2" );
+
+    // class objectOk {
+
+    //     function do_foo() {
+    //     echo "doing foo.";
+    //     }
+    // };
+    $null = null;
 
     //Ejercicio 2 -> Imprimir las variables en pantalla (Averigua cómo imprimir el valor booleano (que imprima true o false), un array y un valor nulo (que imprima NULL).
 
     //Escribe tu código aquí...
+    print_r($string);
+    print_r($integer);
+    print_r($float);
+    print_r($boolean);
+    print_r($arrayOk);
+    print_r($null);
 
     ?>
 
