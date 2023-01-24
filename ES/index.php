@@ -231,11 +231,15 @@
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 15:"."<br/>";
+    $divi = $integer1 / $integer2;
+    echo $divi;
 
     //Ejercicio 16 -> calcula el módulo de ambas variables de tipo integer e imprime en pantalla.
 
     //Escribe tu código aquí...
     echo "<hr/>"."Ejercicio 16:"."<br/>";
+    $modulo = $integer1 % $integer2;
+    echo $modulo;
 
     //Ejercicio 17 -> declara dos variables y dale un valor de tipo double e imprime ambas en pantalla.
 
