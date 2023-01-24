@@ -139,15 +139,17 @@
     //Escribe tu código aquí...
     echo "Ejercicio 4:"."<br/>";
     echo strtoupper($hola."<hr/>");
+
     //Ejercicio 5 -> Imprime en pantalla la longitud de la variable tipo string.
 
     //Escribe tu código aquí...
     echo "Ejercicio 5:"."<br/>";
+    echo strlen($hola);
 
     //Ejercicio 6 -> Imprime en pantalla la cantidad de palabras de la variable tipo string.
 
     //Escribe tu código aquí...
-    echo "Ejercicio 6:"."<br/>";
+    echo "<hr/>"."Ejercicio 6:"."<br/>";
 
     //Ejercicio 7 -> Cambia a orden inverso los caracteres de la variable string e imprime en pantalla, sin modificar la variable original.
 
